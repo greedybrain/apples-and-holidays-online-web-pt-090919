@@ -48,7 +48,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, values|
       case holiday
         when :christmas
-          puts "Christmas: #{values.join(', ')}"
+          puts "  Christmas: #{values.join(', ')}"
         when :new_years
           puts "  New Years: #{values.join(', ')}"
         when :fourth_of_july
